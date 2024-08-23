@@ -1,5 +1,8 @@
 # SC-MsGNet
 
+## Demonstration of Thesis Method Flow
+![論文方法流程圖](https://github.com/user-attachments/assets/54376919-9b0a-4a16-97a9-91652f751025)
+
 
 ## Requirements
 - Python 3
