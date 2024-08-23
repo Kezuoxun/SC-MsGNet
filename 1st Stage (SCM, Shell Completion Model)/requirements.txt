@@ -1,0 +1,7 @@
+torchvision
+tensorboardX
+librosa==0.7.2
+inflect==0.2.5
+Unidecode==1.0.22
+pillow
+configargparse
