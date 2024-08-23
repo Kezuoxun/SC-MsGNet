@@ -59,7 +59,7 @@ Training examples are shown in [command_train.sh](command_train.sh). `--dataset_
 Testing examples are shown in [command_test.sh](command_test.sh), which contains inference and result evaluation. `--dataset_root`, `--camera`, `--checkpoint_path` and `--dump_dir` should be specified according to your settings. Set `--collision_thresh` to -1 for fast inference.
 
 ## Results
-Results  of my method#1 (CA-MsGE) results have collision detection.
+### Results  of my method#1 (CA-MsGE) results have collision detection.
 
 Evaluation results on Realsense camera:
 |         |              |         Seen         |        |           |        Similar          |        |            |         Novel          ||
@@ -67,6 +67,17 @@ Evaluation results on Realsense camera:
 |         | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> |
 | w/o CD  | 74.47  | 84.83            | 71.12           | 62.28  | 74.53            | 55.25            | 25.91  | 32.10            | 14.07             |
 |     CD  | 76.58  | 87.53            | 72.61            | 64.42  | 77.32            | 56.61            | 27.96  | 33.57            | 14.34             |
+
+Results  of my method#1 (CA-MsGE) results have collision detection.
+
+
+### Results  of my method#2 (MsGFF) results have collision detection.
+Evaluation results on Realsense camera:
+|         |              |         Seen         |        |           |        Similar          |        |            |         Novel          ||
+|:------: |:----------------:|:----------------:|:------:|:----------------:|:----------------:|:------:|:----------------:|:----------------:|:----------------:|
+|         | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> |
+| w/o CD  | 73.93  | 83.54            | 71.03           | 60.98  | 72.79            | 54.19            | 24.70  | 30.67            | 13.38             |
+|     CD  | 76.21  | 86.49            | 72.67            | 63.47  | 76.05            | 55.91            | 26.31  | 32.62            | 13.95             |
 
 
 ## Troubleshooting
