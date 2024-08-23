@@ -1,0 +1,18 @@
+gn_root: "/media/ntfs/graspnet"
+camera: "realsense"
+log: "logs"
+logging_step: 100
+validation_interval: 1 # Save and valid have same interval
+checkpoints: "checkpoints"
+
+batch_size: 4
+lr: 0.001
+PLUS:  True   #   True: SSD ( front-rear pc)         False: SSC   (rear pc  &  front+rear pc)
+
+hmin: 256
+hmax: 480
+wmin: 256
+wmax: 640
+size_int: 8
+
+
