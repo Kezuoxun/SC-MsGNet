@@ -1,9 +1,4 @@
-# GraspNet graspness
-My implementation of paper "Graspness Discovery in Clutters for Fast and Accurate Grasp Detection" (ICCV 2021).
-
-[[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Graspness_Discovery_in_Clutters_for_Fast_and_Accurate_Grasp_Detection_ICCV_2021_paper.pdf)]
-[[dataset](https://graspnet.net/)]
-[[API](https://github.com/graspnet/graspnetAPI)]
+# SC-MsGNet
 
 
 ## Requirements
