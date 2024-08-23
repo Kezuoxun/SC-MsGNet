@@ -62,8 +62,8 @@ Testing examples are shown in [command_test.sh](command_test.sh), which contains
 Results  of my method#1 (CA-MsGE) results have collision detection.
 
 Evaluation results on Realsense camera:
-|         |              |         Seen         |        |           |        Similar          |        | Novel            |                  | 
-|:------: |:----------------:|:----------------:|:------:|:----------------:|:----------------:|:------:|:----------------:|:----------------:|
+|         |              |         Seen         |        |           |        Similar          |        |            |         Novel          |                 | 
+|:------: |:----------------:|:----------------:|:------:|:----------------:|:----------------:|:------:|:----------------:|:----------------:||:----------------:|
 |         | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> |
 | w/o CD  | 74.47  | 84.83            | 71.12           | 62.28  | 74.53            | 55.25            | 25.91  | 32.10            | 14.07             |
 |     CD  | 76.58  | 87.53            | 72.61            | 64.42  | 77.32            | 56.61            | 27.96  | 33.57            | 14.34             |
