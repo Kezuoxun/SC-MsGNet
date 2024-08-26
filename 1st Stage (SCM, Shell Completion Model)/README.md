@@ -10,3 +10,13 @@
 - Unidecode==1.0.22
 - pillow
 - configargparse
+
+## Installation
+Install packages via Pip.
+```bash
+pip install -r requirements.txt
+
+## Training and Testing
+Training examples are shown in [command_train.sh](command_train.sh). `--name` and `--config` should be specified according to your settings. You can use TensorBoard to visualize training process.
+
+Testing examples are shown in [test.py](test.py), which contains result evaluation of score.
