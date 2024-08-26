@@ -107,7 +107,7 @@ class GraspNet(nn.Module):
 
 
 class GraspNet_MSCG_context_seed_global_high(nn.Module):
-    '''new test '''
+    '''new test M1 '''
     def __init__(self, seed_feat_dim=512, num_point=15000, num_view=300,cylinder_radius=0.05, hmin= -0.02, hmax= 0.06,  is_training=True):
         super().__init__()
         self.is_training = is_training
@@ -235,7 +235,7 @@ class GraspNet_MSCG_context_seed_global_high(nn.Module):
 
 
 class GraspNet_MSCG_context_high_Gated(nn.Module):
-    '''new test '''
+    '''new test M2'''
 
     def __init__(self, seed_feat_dim=512, num_point=15000, num_view=300,cylinder_radius=0.05, hmin=-0.02, hmax= 0.06,  is_training=True):
         super().__init__()
