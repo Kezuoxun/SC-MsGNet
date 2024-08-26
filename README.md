@@ -18,7 +18,7 @@
 ## Installation
 Get the code.
 ```bash
-git clone [https://github.com/rhett-chen/graspness_implementation.git](https://github.com/Kezuoxun/SC-MsGNet.git)
+git clone https://github.com/Kezuoxun/SC-MsGNet.git
 cd graspnet-sc-msgnet
 ```
 Install packages via Pip.
