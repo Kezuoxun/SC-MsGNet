@@ -64,5 +64,9 @@ Testing examples are shown in [command_test.sh](command_test.sh), which contains
 ## Troubleshooting
 If you meet the torch.floor error in MinkowskiEngine, you can simply solve it by changing the source code of MinkowskiEngine: 
 MinkowskiEngine/utils/quantization.py 262，from discrete_coordinates =_auto_floor(coordinates) to discrete_coordinates = coordinates
+
 ## Acknowledgement
-My code is mainly based on Graspnet-baseline  https://github.com/graspnet/graspnet-baseline , Graspness_implementation https://github.com/rhett-chen/graspness_implementation.git and Scale-Balanced-Grasp  https://github.com/mahaoxiang822/Scale-Balanced-Grasp.git .
+My code is mainly based on: 
+1. Graspnet-baseline  https://github.com/graspnet/graspnet-baseline
+2. Graspness_implementation https://github.com/rhett-chen/graspness_implementation.git
+3. Scale-Balanced-Grasp  https://github.com/mahaoxiang822/Scale-Balanced-Grasp.git .
