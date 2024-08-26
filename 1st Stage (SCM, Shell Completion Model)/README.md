@@ -15,6 +15,7 @@
 Install packages via Pip.
 ```bash
 pip install -r requirements.txt
+```
 
 ## Training and Testing
 Training examples are shown in [command_train.sh](command_train.sh). `--name` and `--config` should be specified according to your settings. You can use TensorBoard to visualize training process.
