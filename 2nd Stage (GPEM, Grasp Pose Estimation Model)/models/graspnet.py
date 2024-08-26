@@ -361,8 +361,6 @@ class GraspNet_MSCG_context_high_Gated(nn.Module):
         vp_features3 = (1 + g_f3)*vp_features3 + (1 - g_f3)*(g_f1*vp_features1 + g_f2*vp_features2 + g_f4*vp_features4)
         vp_features4 = (1 + g_f4)*vp_features4 + (1 - g_f4)*(g_f1*vp_features1 + g_f2*vp_features2 + g_f3*vp_features3)
         '''GFF'''
-        # 後續對 gated fusion 之後的局部特徵做進一步的 2D 卷積和 ReLU 操作,也是很常見的做法。這可以進一步提取和整合融合特徵中的信息。
-        # print('vp_features1.size()', vp_features1.size())  # 4 512 1024
 
         vp_features_concat = torch.cat([ vp_features1, vp_features2, vp_features3, vp_features4], dim=1)
         # print('vp_features_concat.size()', vp_features_concat.size())  # 4 512 1024
