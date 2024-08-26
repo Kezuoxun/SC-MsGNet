@@ -2,6 +2,11 @@
 
 ![GPEM](https://github.com/user-attachments/assets/663efcac-0b16-4863-8546-e32268e4b806)
 
+## Demo of Method 1 (CA-MsGE)  Flow
+![CA-MsGE](https://github.com/user-attachments/assets/337578ba-02c8-414e-8ad9-78673fce680b)
+
+## Demo of Method 2 (MsGFF)  Flow
+![MSGFF](https://github.com/user-attachments/assets/8fd871b2-42b4-449d-841f-c9b8fff559ec)
 
 ## Requirements
 - Python 3
